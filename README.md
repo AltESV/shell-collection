@@ -12,9 +12,8 @@ These shell scripts are designed to automate mundane tasks, saving you time and 
 
 **Usage**:
 
-\```bash
+```bash
 ./pump.sh
-\```
 
 ### `work.sh`
 
@@ -26,9 +25,8 @@ These shell scripts are designed to automate mundane tasks, saving you time and 
 
 **Usage**:
 
-\```bash
+```bash
 ./work.sh
-\```
 
 ## Installation
 
