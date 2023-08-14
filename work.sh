@@ -15,7 +15,8 @@ urls=(
 # Path to Google Chrome. update based on which directory yours is in
 chrome_path="/c/Program Files/Google/Chrome/Application/chrome.exe"
 
-# Loop through the URLs and open them in Chrome
+# Loop through URLs and open them in Chrome & send messages to null 
 for url in "${urls[@]}"; do
-  "$chrome_path" "$url" &
+  "$chrome_path" "$url" 2>/dev/null &
 done
+exit
