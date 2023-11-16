@@ -1,12 +1,20 @@
 # shell-collection
 
-These shell scripts are designed to automate mundane tasks, saving you time and effort. Feel free to use them to enhance your workflow. They certainly save me time each day.
+These shell scripts are designed to automate mundane tasks, saving you time and effort. Feel free to use them to enhance your workflow. 
 
 ## Scripts
 
-### `pump.sh`
+### `hash.sh`
 
-**Location**: `"c:\\users\\danie\\downloads\\puppeteer"`
+**Functionality**: Perform quick email hashing using SHA256
+
+**Usage**:
+
+```bash
+./hash.sh
+```
+
+### `pump.sh`
 
 **Functionality**: Executes the `npm start` command in the specified directory four times in a row. Great for multiple runs of a development server or a puppeteer task.
 
@@ -29,17 +37,3 @@ These shell scripts are designed to automate mundane tasks, saving you time and 
 ```bash
 ./work.sh
 ```
-
-## Installation
-
-1. Make sure the scripts are executable by running `chmod +x pump.sh work.sh`.
-2. Update the paths and URLs in the scripts as needed.
-3. Run the scripts using the usage instructions above.
-
-## Contribution
-
-Feel free to contribute to these scripts or add more to enhance the collection. Every contribution is appreciated!
-
-## License
-
-These scripts are available under the [MIT License](LICENSE) or any open-source license of your choice.
